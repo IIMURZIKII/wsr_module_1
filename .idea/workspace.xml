@@ -16,6 +16,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -31,7 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599901568903</updated>
       <workItem from="1599901571242" duration="2534000" />
-      <workItem from="1599970491018" duration="10726000" />
+      <workItem from="1599970491018" duration="17556000" />
     </task>
     <servers />
   </component>
@@ -39,9 +40,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1599974308425">
+    <state x="765" y="293" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599991786053">
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
-    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599974308425" />
+    <state x="765" y="293" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599991786053" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599991251214">
+      <screen x="0" y="0" width="1852" height="1080" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1852.1080@0.0.1852.1080" timestamp="1599991251214" />
+    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1599993050467">
+      <screen x="0" y="0" width="1852" height="1080" />
+    </state>
+    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599993050467" />
   </component>
 </project>
