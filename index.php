@@ -2,7 +2,7 @@
 
 // Заголовки на ответ.
 header("Content-Type: application/json; charset=utf-8");
-
+// sdsadasd
 if (isset($_GET['api'])) {
 
     if (isset($_GET['signup'])) {
