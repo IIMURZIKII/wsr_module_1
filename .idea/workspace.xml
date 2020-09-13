@@ -32,7 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599901568903</updated>
       <workItem from="1599901571242" duration="2534000" />
-      <workItem from="1599970491018" duration="17556000" />
+      <workItem from="1599970491018" duration="20837000" />
     </task>
     <servers />
   </component>
@@ -48,9 +48,13 @@
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1852.1080@0.0.1852.1080" timestamp="1599991251214" />
-    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1599993050467">
+    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1599997181822">
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
-    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599993050467" />
+    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599997181822" />
+    <state x="1455" y="473" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599996678940">
+      <screen x="0" y="0" width="1852" height="1080" />
+    </state>
+    <state x="1455" y="473" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599996678940" />
   </component>
 </project>

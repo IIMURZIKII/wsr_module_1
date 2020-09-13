@@ -6,6 +6,15 @@ header("Access-Control-Allow-Headers: Origin, Authorization, Content-Type, X-Req
 
 include_once 'settings.php';
 
+try {
+    $pdo = new PDO("mysql:host={$localhost};dbname={$database}", $username, $password);
+
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage();
+    die();
+}
+
+
 if (isset($_GET['api'])) {
 
     if (isset($_GET['signup'])) {

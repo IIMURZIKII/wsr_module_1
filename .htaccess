@@ -1,6 +1,9 @@
 # Стратовый файл.
  DirectoryIndex /index.php
 
+# Заголовок
+setEnvIf Authorization .+ HTTP_AUTHOI
+
  # Модуль маршрутизации.
  RewriteEngine On
 
@@ -13,3 +16,5 @@
  # Запросы апи.
  RewriteRule ^api$ /?api [L]
  RewriteRule ^api/signup$ /?api&signup [L]
+ RewriteRule ^api/login$ /?api&login [L]
+ RewriteRule ^api/photo/([0-9]{1,})$ /?api&photo [L]
