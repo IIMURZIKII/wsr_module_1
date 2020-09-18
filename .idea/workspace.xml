@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01077760-5e2d-468b-9d49-9430bc009563" name="Default Changelist" comment="" />
+    <list default="true" id="01077760-5e2d-468b-9d49-9430bc009563" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +16,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hP8qpWHAjFEUN4kHGGYxxlfcNM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +42,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599901568903</updated>
       <workItem from="1599901571242" duration="2534000" />
-      <workItem from="1599970491018" duration="20837000" />
+      <workItem from="1599970491018" duration="21517000" />
+      <workItem from="1600425169373" duration="4981000" />
     </task>
     <servers />
   </component>
@@ -56,5 +67,13 @@
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
     <state x="1455" y="473" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599996678940" />
+    <state x="307" y="114" width="1079" height="713" key="dock-window-1" timestamp="1600427658697">
+      <screen x="0" y="0" width="1852" height="1080" />
+    </state>
+    <state x="307" y="114" width="1079" height="713" key="dock-window-1/0.0.1852.1080@0.0.1852.1080" timestamp="1600427658697" />
+    <state x="433" y="131" width="1079" height="713" key="dock-window-2" timestamp="1600429901094">
+      <screen x="0" y="0" width="1852" height="1080" />
+    </state>
+    <state x="433" y="131" width="1079" height="713" key="dock-window-2/0.0.1852.1080@0.0.1852.1080" timestamp="1600429901094" />
   </component>
 </project>
