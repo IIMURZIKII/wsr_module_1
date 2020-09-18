@@ -16,7 +16,7 @@ if(isset($_POST['phone'])&&
         api_response($array);
 
     } else {
-
+        echo 'OK';
     }
 } else {
 
