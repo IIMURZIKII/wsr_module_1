@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['phone'])&&
+if (isset($_POST['phone'])&&
     isset($_POST['password'])){
 
     $phone = $_POST['phone'];
