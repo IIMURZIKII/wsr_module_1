@@ -10,7 +10,7 @@ if (isset($_POST['first_name']) &&
     $phone = $_POST['phone'];
     $password = $_POST['password'];
 
-    $query = $pdo -> query("SELECT * FROM users WHERE phone = '{$phone}'");
+    $query = $pdo -> query("SELECT * FROM users WHERE phone = '{$phone}';");
     $user = $query -> fetch(PDO::FETCH_ASSOC);
 
     if ($user) {
