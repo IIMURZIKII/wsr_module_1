@@ -5,29 +5,46 @@ if (isset($_POST['phone']) &&
 
     $phone = $_POST['phone'];
     $password = $_POST['password'];
+    $token = null;
 
+    if (is_numeric($phone)) {
 
-    $query = $pdo->query("SELECT * FROM users WHERE phone = '{$phone}' and password = '{$password}';");
-    $user = $query->fetch(PDO::FETCH_ASSOC);
+        $query = $pdo -> query("SELECT * FROM users WHERE phone = '{$phone}'");
+        $user = $query -> fetch(PDO::FETCH_ASSOC);
 
-    if ($user) {
-// если обект нашли в базе то
-        $array = array('OK' => 'All right.');
-        echo 'OK';
+        if ($user) {
 
+            if ($password == $user['password']) {
 
-    } else {
-//если нет совпадений  в базе
-        $array = array('error' => 'Wrong login or password.');
+                $token = md5($password);
 
+                $array = array('token' => $token);
+                api_response($array);
+            }
+
+            else {
+                $array = array('login' => 'Incorrect login or password');
+                header('HTTP/1.0 404 Not Found');
+                api_response($array);
+            }
+        }
+
+        else {
+            $array = array('login' => 'Incorrect login or password');
+            header('HTTP/1.0 404 Not Found');
+            api_response($array);
+        }
     }
 
-} else {
-// Нет переменных с данными
-    $array = array('error' => 'Нет всех обязательных данных.');
-
-    header('HTTP/1.0 422 Unprocessable entity');
+    else {
+        $array = array('phone' => 'Incorrect phone');
+        header('HTTP/1.0 404 Not Found');
+        api_response($array);
+    }
 
 }
 
-api_response($array);
+else {
+    header('HTTP/1.0 404 Not Found');
+    exit;
+}

@@ -20,22 +20,31 @@ if (isset($_GET['api'])) {
     if (isset($_GET['signup'])) {
 
         include_once "signup.php";
+
     }
 
     else if (isset($_GET['login'])) {
 
         include_once "login.php";
-    }
 
-    else if (isset($_GET['photo'])){
 
-        include_once "photo.php";
     }
 
     else {
 
-        header('HTTP/1.0 404 Not Found');
-        exit;
+        include_once "auth_protect.php";
+
+        if (isset($_GET['photo'])) {
+
+            include_once "photo.php";
+
+        }
+
+        else {
+
+            header('HTTP/1.0 404 Not Found');
+            exit;
+        }
     }
 }
 

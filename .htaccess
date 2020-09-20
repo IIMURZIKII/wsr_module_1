@@ -2,7 +2,7 @@
  DirectoryIndex /index.php
 
 # Заголовок
-setEnvIf Authorization .+ HTTP_AUTHOI
+ SetEnvIf Authorization .+ HTTP_AUTHOIZATION=$0
 
  # Модуль маршрутизации.
  RewriteEngine On

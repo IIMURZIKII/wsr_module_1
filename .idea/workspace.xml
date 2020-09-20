@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="01077760-5e2d-468b-9d49-9430bc009563" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auth_protect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/photo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +64,24 @@
       <workItem from="1599970491018" duration="21517000" />
       <workItem from="1600425169373" duration="12105000" />
       <workItem from="1600438116459" duration="2425000" />
+      <workItem from="1600579454929" duration="262000" />
+      <workItem from="1600579789159" duration="8874000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="293" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599991786053">
@@ -58,10 +92,10 @@
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1852.1080@0.0.1852.1080" timestamp="1599991251214" />
-    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1599997181822">
+    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1600583267198">
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
-    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1599997181822" />
+    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1600583267198" />
     <state x="1455" y="473" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599996678940">
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
