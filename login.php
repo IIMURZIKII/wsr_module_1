@@ -1,8 +1,6 @@
 <?php
 
-if (isset($_POST['phone']) &&
-    isset($_POST['password'])) {
-
+if (isset($_POST['phone']) && isset($_POST['password'])) {
     $phone = $_POST['phone'];
     $password = $_POST['password'];
     $token = null;

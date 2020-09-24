@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01077760-5e2d-468b-9d49-9430bc009563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth_protect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/photo.php" afterDir="false" />
     </list>
@@ -65,7 +65,9 @@
       <workItem from="1600425169373" duration="12105000" />
       <workItem from="1600438116459" duration="2425000" />
       <workItem from="1600579454929" duration="262000" />
-      <workItem from="1600579789159" duration="8874000" />
+      <workItem from="1600579789159" duration="11638000" />
+      <workItem from="1600920619952" duration="2092000" />
+      <workItem from="1600923109144" duration="5526000" />
     </task>
     <servers />
   </component>
@@ -82,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="293" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599991786053">
@@ -92,10 +95,10 @@
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1852.1080@0.0.1852.1080" timestamp="1599991251214" />
-    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1600583267198">
+    <state x="715" y="463" key="NewPhpFileDialog" timestamp="1600928776377">
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
-    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1600583267198" />
+    <state x="715" y="463" key="NewPhpFileDialog/0.0.1852.1080@0.0.1852.1080" timestamp="1600928776377" />
     <state x="1455" y="473" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599996678940">
       <screen x="0" y="0" width="1852" height="1080" />
     </state>
