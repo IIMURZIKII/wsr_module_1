@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01077760-5e2d-468b-9d49-9430bc009563" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <workItem from="1600579454929" duration="262000" />
       <workItem from="1600579789159" duration="11638000" />
       <workItem from="1600920619952" duration="2092000" />
-      <workItem from="1600923109144" duration="5593000" />
+      <workItem from="1600923109144" duration="5958000" />
     </task>
     <servers />
   </component>

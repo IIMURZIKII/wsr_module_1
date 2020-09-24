@@ -1,6 +1,6 @@
 <?php
 
-if ($_GET['mode']=="logoff") {
+if (isset($_POST['phone']) && isset($_POST['password'])) {
     unset($_SESSION['phone']);
     unset($_SESSION['password']);
     api_response($array);
